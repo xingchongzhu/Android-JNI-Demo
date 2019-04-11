@@ -1,0 +1,4 @@
+[arm64-v8a] Compile        : jni_blur <= stackblur.c
+[arm64-v8a] Compile        : jni_blur <= com_data_mylibrary_StackNative.c
+[arm64-v8a] Compile        : jni_blur <= load.c
+[arm64-v8a] SharedLibrary  : libjni_blur.so

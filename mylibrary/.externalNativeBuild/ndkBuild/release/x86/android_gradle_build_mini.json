@@ -1,0 +1,17 @@
+{
+  "buildFiles": [
+    "/home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/src/main/java/jni/Android.mk",
+    "/home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/src/main/java/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/home/zhuxingchong/Android/Sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/src/main/java/jni/Android.mk NDK_APPLICATION_MK\u003d/home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/src/main/java/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-23 NDK_OUT\u003d/home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/build/intermediates/ndkBuild/release/lib clean"
+  ],
+  "libraries": {
+    "jni_blur-release-x86": {
+      "artifactName": "jni_blur",
+      "buildCommand": "/home/zhuxingchong/Android/Sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/src/main/java/jni/Android.mk NDK_APPLICATION_MK\u003d/home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/src/main/java/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-23 NDK_OUT\u003d/home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/build/intermediates/ndkBuild/release/lib /home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/build/intermediates/ndkBuild/release/obj/local/x86/libjni_blur.so",
+      "abi": "x86",
+      "output": "/home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/build/intermediates/ndkBuild/release/obj/local/x86/libjni_blur.so"
+    }
+  }
+}

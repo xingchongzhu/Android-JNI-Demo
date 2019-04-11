@@ -1,0 +1,41 @@
+{
+  "buildFiles": [
+    "/home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/src/main/java/jni/Android.mk",
+    "/home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/src/main/java/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/home/zhuxingchong/Android/Sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/src/main/java/jni/Android.mk NDK_APPLICATION_MK\u003d/home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/src/main/java/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-23 NDK_OUT\u003d/home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/build/intermediates/ndkBuild/release/lib clean"
+  ],
+  "libraries": {
+    "jni_blur-release-x86_64": {
+      "buildCommand": "/home/zhuxingchong/Android/Sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/src/main/java/jni/Android.mk NDK_APPLICATION_MK\u003d/home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/src/main/java/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-23 NDK_OUT\u003d/home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/build/intermediates/ndkBuild/release/lib /home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/build/intermediates/ndkBuild/release/obj/local/x86_64/libjni_blur.so",
+      "toolchain": "toolchain-x86_64",
+      "abi": "x86_64",
+      "artifactName": "jni_blur",
+      "files": [
+        {
+          "src": "/home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/src/main/java/jni/com_data_mylibrary_StackNative.c",
+          "flags": "-target x86_64-none-linux-android23 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /home/zhuxingchong/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -I/home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/src/main/java/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/src/main/java/jni/load.c",
+          "flags": "-target x86_64-none-linux-android23 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /home/zhuxingchong/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -I/home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/src/main/java/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/src/main/java/jni/stackblur.c",
+          "flags": "-target x86_64-none-linux-android23 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /home/zhuxingchong/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -I/home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/src/main/java/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "/home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/build/intermediates/ndkBuild/release/obj/local/x86_64/libjni_blur.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86_64": {
+      "cCompilerExecutable": "/home/zhuxingchong/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

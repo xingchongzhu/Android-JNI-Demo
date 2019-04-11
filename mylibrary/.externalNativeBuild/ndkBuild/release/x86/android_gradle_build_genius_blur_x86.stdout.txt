@@ -1,0 +1,4 @@
+[x86] Compile        : genius_blur <= stackblur.c
+[x86] Compile        : genius_blur <= com_data_mylibrary_StackNative.c
+[x86] Compile        : genius_blur <= load.c
+[x86] SharedLibrary  : libgenius_blur.so

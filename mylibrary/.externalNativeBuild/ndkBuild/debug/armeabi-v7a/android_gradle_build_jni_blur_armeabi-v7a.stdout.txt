@@ -1,0 +1,4 @@
+[armeabi-v7a] Compile thumb  : jni_blur <= stackblur.c
+[armeabi-v7a] Compile thumb  : jni_blur <= com_data_mylibrary_StackNative.c
+[armeabi-v7a] Compile thumb  : jni_blur <= load.c
+[armeabi-v7a] SharedLibrary  : libjni_blur.so

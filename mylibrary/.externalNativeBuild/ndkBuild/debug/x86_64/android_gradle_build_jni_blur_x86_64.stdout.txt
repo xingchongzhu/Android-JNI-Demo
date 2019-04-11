@@ -1,0 +1,4 @@
+[x86_64] Compile        : jni_blur <= stackblur.c
+[x86_64] Compile        : jni_blur <= com_data_mylibrary_StackNative.c
+[x86_64] Compile        : jni_blur <= load.c
+[x86_64] SharedLibrary  : libjni_blur.so

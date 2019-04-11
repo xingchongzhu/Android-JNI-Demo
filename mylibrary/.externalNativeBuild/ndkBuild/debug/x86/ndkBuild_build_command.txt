@@ -1,0 +1,17 @@
+Executable : /home/zhuxingchong/Android/Sdk/ndk-bundle/ndk-build
+arguments : 
+NDK_PROJECT_PATH=null
+APP_BUILD_SCRIPT=/home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/src/main/java/jni/Android.mk
+NDK_APPLICATION_MK=/home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/src/main/java/jni/Application.mk
+APP_ABI=x86
+NDK_ALL_ABIS=x86
+NDK_DEBUG=1
+APP_PLATFORM=android-23
+NDK_OUT=/home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/build/intermediates/ndkBuild/debug/obj
+NDK_LIBS_OUT=/home/zhuxingchong/WorkSpace/myProject/MyApplication/mylibrary/build/intermediates/ndkBuild/debug/lib
+APP_SHORT_COMMANDS=false
+LOCAL_SHORT_COMMANDS=false
+-B
+-n
+jvmArgs : 
+
